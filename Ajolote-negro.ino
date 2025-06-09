@@ -33,18 +33,18 @@ long int sumap, suma, pos,postlast, position;
 int barra = 0;
 int LINEA = 1;  // linea negra es 1 y linea blanca es 0 barra china de qtr (cambia solamente esto)
 //constantes //
-float KP=0.6;//constante proporcional //
-float KD=17.00;//constante derivativa //
-float KI=0.00089;//constante integral 
+float KP=0.60;//constante proporcional 1.05 lb .60
+float KD=10;//constante derivativa 5
+float KI=0.003;//constante integral.0025
 //float KP=0.5;//constante proporcional 
 //float KD=5;//constante derivativa 
 //float KI=0.002;//constante integral
 //Velocidades 
 int vel=200;//VELOCIDAD MÁXIMA DEL ROBOT MÁXIMA 255//150 
-int veladelante=150;//VELOCIDAD DEL FRENO DIRECCIÓN ADELANTE//100 //Revisar *VELATRAS* 
-int velatras=140;//VELOCIDAD DEL FRENO DIRECCIÓN ATRÁS//REVISAR **VELADELATE 
-int veladel2 = 120;//65 
-int velatras2 = 120;//65 
+int veladelante=160;//VELOCIDAD DEL FRENO DIRECCIÓN ADELANTE//100 //Revisar *VELATRAS* 
+int velatras=130;//VELOCIDAD DEL FRENO DIRECCIÓN ATRÁS//REVISAR **VELADELATE 
+int veladel2 = 110;//65 
+int velatras2 = 10;//65 
 int error1=0; 
 int error2=0; 
 int error3=0; 
